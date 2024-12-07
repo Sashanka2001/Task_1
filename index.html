@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+        
+        <div class="image-display">
+            <img id="gallery-image" src="https://estliving.com/wp-content/uploads/2022/04/est-Living_Luxury-Linen_Bespoke-Bedlinen_17-750x540.jpg" alt="Gallery Image">
+        </div>
+        
+        <button class="next" onclick="changeImage(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
